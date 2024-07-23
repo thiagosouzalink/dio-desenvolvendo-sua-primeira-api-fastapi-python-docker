@@ -1,0 +1,3 @@
+[tool.taskipy.tasks]
+run = "fastapi dev workout_api/main.py"
+run_migrations = "alembic upgrade head"
